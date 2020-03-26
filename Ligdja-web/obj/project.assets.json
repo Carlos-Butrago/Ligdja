@@ -12084,11 +12084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\Ligdja-web\\Ligdja-web.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\Ligdja-web.csproj",
       "projectName": "Ligdja-web",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\Ligdja-web\\Ligdja-web.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\Ligdja-web.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\Ligdja-web\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\PROJETOS C#\\LIG-DJÁ SITE\\LIGDJA-WEB\\Ligdja-web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
