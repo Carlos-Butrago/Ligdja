@@ -7,70 +7,81 @@
     <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/lib/site/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
-
-
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    </environment>
-    <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
-              crossorigin="anonymous"
-              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
-    </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 
 <body style="background-color:white">
     <header>
 
-        <nav class="navbar navbar-expand-sm" style="background-color:mediumblue">
-            <div class="container btn-group-toggle" data-toggle="collapse">
-                <a class="" asp-controller="Home" asp-action="Index" style="color:white">
-                    <img class="rounded-lg" src="~/imagem/email.jpg" width="27" height="21" alt="" />
-                    Whatsapp
+        <nav class=" navbar-toggler" style="background-color:mediumblue">
+            <div class="container btn-group-toggle navbar-expand-sm navbar" data-toggle="collapse">
+                <a><img class="rounded-lg mx-2" src="~/imagem/whats.jfif" width="27" height="25" alt="" /></a>
+
+                <a class="mx-2" href="https://api.whatsapp.com/send?phone=556592704727&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect." style="color:whitesmoke">
+                    65-9-9270-4727  /
                 </a>
-                <a class="" asp-controller="Home" asp-action="Index" style="color:white">
-                    <img class="rounded-lg" src="~/imagem/email.jpg" width="27" height="21" alt="" />
-                    Instagram
+
+                <a href="https://api.whatsapp.com/send?phone=556596715993&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect." style="color:whitesmoke">
+                    65-9-9671-5993
                 </a>
-                <a class="" asp-controller="Home" asp-action="Index" style="color:white">
-                    <img class="rounded-lg" src="~/imagem/email.jpg" width="27" height="21" alt="" />
+
+                <a class="mx-5" href="https://www.picuki.com/profile/ligdja" style="color:whitesmoke">
+                    <img class="rounded-lg" src="~/imagem/instagram.png" width="27" height="25" alt="" />
+                    ligdja
+                </a>
+
+
+                <a class="mx-5 my-xl-2" href="https://www.facebook.com/ligdja/" style="color:whitesmoke">
+                    <img class="rounded-lg" src="~/imagem/facebook.webp" width="27" height="25" alt="" />
                     Facebook
                 </a>
+
+
+
+            </div>
+
+            <div class="navbar-toggler container">
             </div>
         </nav>
 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" aria-live="assertive" style="background-color:white">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3" style="background-color:white">
 
             <div class="container btn-group btn-group-toggle" data-toggle="collapse">
 
-                <a class="navbar-brand font-weight-bold border-bottom" style="color:mediumblue"> LigDjá </a>
+                <a class="navbar-brand font-weight-bold border-bottom" style="color:mediumblue" asp-controller="Home" asp-action="Index">
+                    <img class="rounded" src="~/imagem/logo.jpeg" width="150" height="100" alt="" />
+                </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="navbar-collapse collapse">
 
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav flex-grow-1">
 
                         <li class="navbar nav-item">
-                            <a class="nav-link font-weight-bold" style="color:mediumblue" tabindex="1" asp-controller="Home" asp-action="Index">Início</a>
+                            <a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Index">Início</a>
                         </li>
 
                         <li class="navbar nav-item">
-                            <a class="nav-link font-weight-bold" style="color:mediumblue" tabindex="1" asp-controller="Servico" asp-action="ServicosPage">Serviços</a>
-                        </li>
-                        
-                        <li class="navbar nav-item">
-                            <a class="nav-link font-weight-bold" style="color:mediumblue" tabindex="1" asp-controller="Home" asp-action="Sobre">Sobre</a>
+
+                            <a href="#" class="dropdown-toggle nav-link font-weight-bold" style="color:mediumblue" data-toggle="dropdown">Serviços</a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="nav-link" asp-area="Views" asp-controller="Servico" asp-action="gasE">Gás empresarial</a>
+                                    <a class="nav-link" asp-area="Views" asp-controller="Servico" asp-action="gasR">Gás residencial</a>
+                                </li>
+                            </ul>
+
                         </li>
 
                         <li class="navbar nav-item">
-                            <a class="nav-link font-weight-bold" style="color:mediumblue" tabindex="1" asp-controller="Home" asp-action="Contato">Contato</a>
+                            <a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Sobre">Sobre</a>
+                        </li>
+
+                        <li class="navbar nav-item">
+                            <a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -86,25 +97,28 @@
     </div>
 
 
-    <nav class="navbar text-center" style="background-color:mediumblue">
-
-        <div class="card-body">
-            <h1 class="display-4" style="color:white">LigD'já</h1>
-            <p style="color:white">TEXTO.</p>
-            <p style="color:white">email@gmail.com</p>
-            <p style="color:white">(65) 9-99999-9999</p>
-        </div>
-
-    </nav>
 
 
-    <footer class="border-top footer text-muted" style="background-color:mediumblue">
+    <div id="footer" data-bi-name="footer" class="uhf-container has-padding" role="contentinfo" style="background-color:whitesmoke">
 
-        <div class="container" style="color:white">
-            &copy; ₢ Copyrigth <a style="color:white" asp-controller="Home" asp-action="Index"> Síndica Profissional 2020 </a>
-        </div>
+        <footer class="navbar navbar-nav">
 
-    </footer>
+            <a><img class="img-fluid" src="~/imagem/logo.jpeg" width="500" height="500" alt="" /></a>
+
+
+            <ul class="card-text">
+                <li><a class=" font-weight-bold" style="color:black">Onde você estiver, conte com a gente.</a></li>
+                <li><a class=" font-weight-bold" style="color:black">email@gmail.com</a></li>
+                <li><a class=" font-weight-bold" style="color:black">(65) 9-99999-9999</a></li>
+            </ul>
+
+
+        </footer>
+
+    </div>
+
+
+    <div class=" navbar-toggler text-center my-xl-5" style="color:dimgrey">&copy; ₢ Copyrigth  LigD'já 2020</div>
 
 
     <environment include="Development">
@@ -125,7 +139,13 @@
                 integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
         </script>
     </environment>
+
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+
+
 
     @RenderSection("Scripts", required: false)
 
