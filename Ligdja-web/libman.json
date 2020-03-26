@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "popper.js@1.16.1",
+      "destination": "wwwroot/popper.js/",
+      "files": [
+        "popper.min.js"
+      ]
+    },
+    {
+      "library": "swipe@2.0.0",
+      "destination": "wwwroot/lib/swipe/",
+      "files": [
+        "swipe.min.js"
+      ]
+    },
+    {
+      "library": "twitter-bootstrap@4.4.1",
+      "destination": "wwwroot/lib/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.js",
+        "css/bootstrap.css"
+      ]
+    }
+  ]
+}
