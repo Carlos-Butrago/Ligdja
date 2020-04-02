@@ -23,6 +23,29 @@
         "js/bootstrap.js",
         "css/bootstrap.css"
       ]
+    },
+    {
+      "library": "twitter-bootstrap@4.4.0",
+      "destination": "wwwroot/lib/twitter-bootstrap/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.min.js",
+        "css/bootstrap.min.css"
+      ]
+    },
+    {
+      "library": "flexslider@2.7.2",
+      "destination": "wwwroot/lib/flexslider/"
+    },
+    {
+      "library": "magnific-popup.js@1.1.0",
+      "destination": "wwwroot/lib/magnific-popup.js/",
+      "files": [
+        "jquery.magnific-popup.js"
+      ]
+    },
+    {
+      "library": "stickyNavbar.js@1.3.5",
+      "destination": "wwwroot/lib/stickyNavbar.js/"
     }
   ]
 }
