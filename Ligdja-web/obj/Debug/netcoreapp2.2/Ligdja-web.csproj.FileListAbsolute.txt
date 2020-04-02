@@ -54,3 +54,6 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.dll
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.pdb
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csproj.CopyComplete
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\autorizado.cshtml.g.cs
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\dicas.cshtml.g.cs
