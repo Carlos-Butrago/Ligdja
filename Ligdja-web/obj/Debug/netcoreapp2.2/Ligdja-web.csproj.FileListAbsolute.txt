@@ -42,6 +42,8 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Sobre.cshtml.g.cs
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\autorizado.cshtml.g.cs
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\dicas.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\gasE.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\gasR.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
@@ -55,5 +57,3 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.pdb
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csproj.CopyComplete
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csprojAssemblyReference.cache
-C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\autorizado.cshtml.g.cs
-C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\dicas.cshtml.g.cs
