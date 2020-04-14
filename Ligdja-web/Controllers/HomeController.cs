@@ -10,11 +10,7 @@ namespace Ligdja_web.Controllers
             return View();
         }
 
-        public IActionResult ServicosPage()
-        {
-            return View();
-        }
-
+    
         public IActionResult Sobre()
         {
             return View();
@@ -25,5 +21,10 @@ namespace Ligdja_web.Controllers
             return View();
         }
 
+
+        public IActionResult dicas()
+        {
+            return View();
+        }
     }
 }

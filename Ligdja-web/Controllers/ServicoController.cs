@@ -22,11 +22,7 @@ namespace SindicoWeb.Controllers
             return View();
         }
 
-        public IActionResult dicas()
-        {
-            return View();
-        }
-
+     
     }
 
 }
