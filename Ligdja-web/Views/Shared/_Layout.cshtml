@@ -18,89 +18,93 @@
         <div class="progress">
             <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
-        <nav class=" navbar-toggler text-center" style="background-color:midnightblue">
+        <nav class=" navbar" style="background-color:midnightblue">
 
-            <div class="container navbar-collapse">
-                <form class="form-inline my-2 my-lg-0" method="get" id="searchform">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Busque no site" aria-label="Busque no site">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                    <h5 class="mx-5 my-2 " style="color:aliceblue">Acabou o gaás..? Lig Dja para ultragaz!</h5>
-                </form>
+            <div class="card-group">
+                <h6 class="mx-5 my-4 " style="color:aliceblue">REVENDEDORA AUTORIZADA</h6>
+
+                <div class="mx-5"></div>
+
+                <a class="mx-5">
+                    <img src="~/imagem/ultra-transp.png" width="300" height="75" alt="" />
+                </a>
             </div>
+
+
+            <form class="form-inline my-2 my-lg-0" method="get" id="searchform">
+                <input class="form-control mr-sm-2" type="search" placeholder="Busque no site" aria-label="Busque no site">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
         </nav>
 
 
 
         <nav class="justify-content-md-around navbar navbar-expand-sm border-bottom  mb-5" style="background-color:white">
 
-            <div class="btn-group btn-group-toggle clearfix" data-toggle="collapse">
 
-                <a class="navbar-brand font-weight-bold float-sm-left" style="color:mediumblue" asp-controller="Home" asp-action="Index">
-                    <img class="rounded" src="~/imagem/logo.png" width="200" height="200" alt="" />
-                </a>
+            <a class="navbar-brand font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Index">
+                <img class="rounded" src="~/imagem/logo.png" width="150" height="150" alt="" />
+            </a>
+
+            <div class=" btn-group btn-group-toggle" data-toggle="collapse">
 
                 <div class="navbar-header">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                     </button>
                 </div>
 
-                <div class="navbar-collapse collapse navbar-nav">
+
+                <div class="collapse navbar-collapse  ">
 
                     <ul class="navbar-nav flex-grow-1 a">
 
                         <li class="navbar nav-item">
-                            <h6><a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Index">INÍCIO</a></h6>
+                            <h5><a class="nav-link font-weight-bold" style="color:dodgerblue" asp-controller="Home" asp-action="Index">INÍCIO</a></h5>
                         </li>
+
+                        <li class="mx-4"></li>
+
 
                         <li class="navbar nav-item">
 
-                            <h6 class="dropdown-toggle nav-link font-weight-bolder" style="color:mediumblue" data-toggle="dropdown"><a href="#" style="color:mediumblue">SERVIÇOS</a></h6>
+                            <h5 class="dropdown-toggle font-weight-bolder" style="color:orangered" data-toggle="dropdown"><a href="#" style="color:dodgerblue">SERVIÇOS</a></h5>
 
                             <ul class="dropdown-menu">
                                 <li>
-                                    <h5><a class="nav-link" asp-area="Views" asp-controller="Servico" asp-action="gasE">Gás empresarial</a></h5>
-                                    <h5><a class=" nav-link" asp-area="Views" asp-controller="Servico" asp-action="gasR">Gás residencial</a></h5>
-                                    <h5><a class=" nav-link" asp-area="Views" asp-controller="Servico" asp-action="autorizado">Autorizado / Clandestino</a></h5>
-                                    <h5><a class=" nav-link" asp-area="Views" asp-controller="Servico" asp-action="dicas">Dicas de segurança</a></h5>
+                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasE">Gás empresarial</a></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <h5><a class=" dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="gasR">Gás residencial</a></h5>
+                                    <div class="dropdown-divider"></div>
+                                    <h5><a class="dropdown-item" style="color:dodgerblue" asp-area="Views" asp-controller="Servico" asp-action="autorizado">Autorizado / Clandestino</a></h5>
                                 </li>
                             </ul>
 
                         </li>
 
-                        <li class="navbar nav-item">
-                            <h6><a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Sobre">SOBRE</a></h6>
-                        </li>
+                        <li class="mx-4"></li>
+
 
                         <li class="navbar nav-item">
-                            <h6><a class="nav-link font-weight-bold" style="color:mediumblue" asp-controller="Home" asp-action="Contato">CONTATO</a></h6>
+                            <h5><a class="nav-link font-weight-bold" style="color:dodgerblue" asp-controller="Home" asp-action="dicas">DICAS</a></h5>
                         </li>
+
+                        <li class="mx-4"></li>
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link font-weight-bold" style="color:dodgerblue" asp-controller="Home" asp-action="Sobre">SOBRE</a></h5>
+                        </li>
+
+
+                        <li class="mx-4"></li>
+
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link font-weight-bold" style="color:dodgerblue" asp-controller="Home" asp-action="Contato">CONTATO</a></h5>
+                        </li>
+
+
                     </ul>
 
-
-                    <div class="dropdown-item"></div>
-                    <div class="dropdown-item"></div>
-
-
-
-                    <div class="navbar-brand">
-                        <a class="mx-5">
-                            <img class="mx-2" src="~/imagem/ultragaz-logo-12.png" />
-                        </a>
-                    </div>
-
-                    <div class="btn-group-vertical">
-                        <a class="mb-1" href="https://api.whatsapp.com/send?phone=556592704727&text=Ol%C3%A1,%20vi%20seu%20whats%20no%20site.%20Aviso:%20Devido%20a%20alta%20demanda,%20pedimos%20a%20compreens%C3%A3o%20em%20eventual%20espera%20no%20atendimento.%20Para%20maior%20agilidade,%20pe%C3%A7a%20pelo%20aplicativo%20Ultragaz%20Connect." style="color:whitesmoke">
-                            <img class="rounded-lg mb-1" src="~/imagem/whats.jfif" width="27" height="25" alt="" />
-                        </a>
-
-                        <a class="mb-1" href="https://www.instagram.com/ligdja/?igshid=lgzl01fevtm2" style="color:whitesmoke">
-                            <img class="rounded-lg" src="~/imagem/instagram.png" width="27" height="25" alt="" />
-                        </a>
-
-                        <a class="" href="https://www.facebook.com/ligdja/" style="color:whitesmoke">
-                            <img class="rounded-lg" src="~/imagem/facebook.webp" width="27" height="25" alt="" />
-                        </a>
-                    </div>
+                    <div class="mx-5"></div>
 
                 </div>
 
@@ -108,7 +112,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
@@ -168,7 +172,6 @@
     <script src="~/lib/twitter-bootstrap/css/bootstrap.css"></script>
     <script src="~/lib/twitter-bootstrap/css/bootstrap.min.css"></script>
     <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-
 
 
     @RenderSection("Scripts", required: false)
