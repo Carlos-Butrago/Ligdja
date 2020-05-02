@@ -26,5 +26,10 @@ namespace Ligdja_web.Controllers
         {
             return View();
         }
+
+        public IActionResult promocoes()
+        {
+            return View();
+        }
     }
 }

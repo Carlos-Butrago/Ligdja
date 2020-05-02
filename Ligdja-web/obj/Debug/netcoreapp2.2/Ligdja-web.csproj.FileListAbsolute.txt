@@ -32,6 +32,7 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.pdb
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.Views.dll
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.Views.pdb
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csprojAssemblyReference.cache
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.RazorAssemblyInfo.cache
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.RazorAssemblyInfo.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.AssemblyInfoInputs.cache

@@ -4,10 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
     <title>@ViewBag.Title</title>
-    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/lib/site/main.css" rel="stylesheet" />
+    <!--<link href="~/lib/site/main.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
-    <link href="~/lib/twitter-bootstrap/css/Estilos.css" rel="stylesheet" />
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
 </head>
 
 
@@ -16,7 +15,7 @@
 
 
     <header>
-        <nav class=" navbar" style="background-color:midnightblue">
+        <nav class="navbar" style="background-color:midnightblue">
 
             <a class="navbar-brand font-weight-bold offset-1" style="color:mediumblue" asp-controller="Home" asp-action="Index">
                 <img class="rounded" src="~/imagem/logo1.png" width="130" height="85" alt="" />
@@ -31,7 +30,6 @@
         </nav>
 
 
-
         <nav class="justify-content-md-around navbar navbar-expand-sm border-bottom  mb-5" style="background-color:white">
 
             <div class=" btn-group btn-group-toggle" data-toggle="collapse">
@@ -44,10 +42,10 @@
 
                 <div class="collapse navbar-collapse" style="font-family: Arial, Helvetica, sans-serif">
 
-                    <ul class="navbar-nav flex-grow-1 a ">
+                    <ul class="navbar-nav flex-grow-1">
 
-                        <li class="navbar nav-item ">
-                            <h5><a class="nav-link " style="color:dodgerblue" asp-controller="Home" asp-action="Index">INÍCIO</a></h5>
+                        <li class="navbar nav-item">
+                            <h5><a class="nav-link" style="color:dodgerblue" asp-controller="Home" asp-action="Index">INÍCIO</a></h5>
                         </li>
 
                         <li class="mx-2"></li>
@@ -55,7 +53,7 @@
 
                         <li class="navbar nav-item">
 
-                            <h5 class="dropdown-toggle " style="color:orangered" data-toggle="dropdown"><a href="#" style="color:dodgerblue">SERVIÇOS</a></h5>
+                            <h5 class="dropdown-toggle" style="color: orangered" data-toggle="dropdown"><a href="#" style="color:dodgerblue">SERVIÇOS</a></h5>
 
                             <ul class="dropdown-menu">
                                 <li>
@@ -97,11 +95,11 @@
 
                     </ul>
 
-                        
+
                     <div class="mx-4"></div>
 
 
-                    <form class="form-inline my-2 my-lg-0 " method="get" id="searchform">
+                    <form class="form-inline my-2 my-lg-0" method="get" id="searchform">
                         <input class="form-control mr-sm-2" id="texto" size="25" type="search" placeholder="Busque no site" aria-label="Busque no site" list="pesquisa">
                         <button class="btn btn-outline-primary badge-light my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
@@ -113,12 +111,15 @@
         </nav>
     </header>
 
+
     <div class="">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+
+
 
     <div class="progress">
         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -153,12 +154,12 @@
     </div>
 
 
-    <div class=" navbar-toggler text-center my-xl-5" style="color:dimgrey">&copy; ₢ Copyrigth  LigD'já 2020</div>
+    <div class="navbar-toggler text-center my-xl-5" style="color:dimgrey">&copy; ₢ Copyrigth  LigD'já 2020</div>
 
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>-->
     </environment>
     <environment exclude="Development">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
@@ -175,12 +176,9 @@
         </script>
     </environment>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!--<script src="~/js/site.js" asp-append-version="true"></script>-->
     <script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
     <script src="~/lib/twitter-bootstrap/js/bootstrap.js"></script>
-    <script src="~/lib/twitter-bootstrap/css/bootstrap.css"></script>
-    <script src="~/lib/twitter-bootstrap/css/bootstrap.min.css"></script>
     <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 
 
@@ -190,3 +188,4 @@
 
 </body>
 </html>
+
