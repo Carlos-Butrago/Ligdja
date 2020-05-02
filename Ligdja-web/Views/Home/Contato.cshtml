@@ -1,50 +1,81 @@
 ﻿
-<body style="background-color:whitesmoke">
+<body>
 
-    <div class="container" style="max-width: 500px;">
-        <form>
-            <div class="form-group">
-                <label for="Input1">Nome</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="Input2">Telefone</label>
-                <input type="tel" id="telefone" placeholder="(**) *****-****" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="input3">Qual o seu endereço?</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="input4">Qual o seu bairro?</label>
-                <input type="text" class="form-control">
-            </div>
+    <div class="jumbotron m-sm-5"  style="background-image:url('/imagem/cozinha5.jpg')">
+        <div class="container" style="max-width: 500px;">
+            <form>
+                <div class="form-group">
+                    <label for="Input1" style="color:white">Nome</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Input2" style="color:white">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(**) *****-****" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="input3" style="color:white">Qual o seu endereço?</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="input4" style="color:white">Qual o seu bairro?</label>
+                    <input type="text" class="form-control">
+                </div>
 
-            <div class="form-group">
-                <label for="inputCidade">Cidade</label>
-                <input type="text" class="form-control" id="inputCidade" />
-                <select id="inputCidade" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
+                <div class="form-group mb-4">
+                    <label for="inputCidade" style="color:white">Cidade</label>
+                    <input type="text" class="form-control" id="inputCidade" />
+                    <select id="inputCidade" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <label for="inputEstado">Estado</label>
-                <input type="text" class="form-control" id="inputEstado" />
-                <select id="inputEstado" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                </select>
-            </div>
+                <div class="form-group mb-4">
+                    <label for="inputEstado" style="color:white">Estado</label>
+                    <input type="text" class="form-control" id="inputEstado" />
+                    <select id="inputEstado" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@examplo.com">
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+                <div class="form-group mb-4">
+                    <label for="exampleFormControlInput1" style="color:white">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@examplo.com">
+                </div>
+                <div class="mt-3">
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Enviar
+                    </button>
+
+                    <!-- The Modal -->
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Enviado com sucesso!!!</h4>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-success" data-dismiss="modal">Fechar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
     </div>
 
-
 </body>
+
+
+
+

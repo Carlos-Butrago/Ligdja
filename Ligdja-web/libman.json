@@ -21,15 +21,8 @@
       "destination": "wwwroot/lib/twitter-bootstrap/",
       "files": [
         "js/bootstrap.js",
-        "css/bootstrap.css"
-      ]
-    },
-    {
-      "library": "twitter-bootstrap@4.4.0",
-      "destination": "wwwroot/lib/twitter-bootstrap/twitter-bootstrap/",
-      "files": [
-        "js/bootstrap.min.js",
-        "css/bootstrap.min.css"
+        "css/bootstrap.css",
+        "css/Estilos.css"
       ]
     },
     {
@@ -51,5 +44,6 @@
       "library": "javascript.util@0.12.12",
       "destination": "wwwroot/javascript.util/"
     }
+    
   ]
 }

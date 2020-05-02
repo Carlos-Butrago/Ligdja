@@ -32,6 +32,7 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.pdb
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.Views.dll
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\bin\Debug\netcoreapp2.2\Ligdja-web.Views.pdb
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.csprojAssemblyReference.cache
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.RazorAssemblyInfo.cache
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.RazorAssemblyInfo.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Ligdja-web.AssemblyInfoInputs.cache
@@ -42,6 +43,7 @@ C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Contato.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\dicas.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Promocoes.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Home\Sobre.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\autorizado.cshtml.g.cs
 C:\Users\ASUS\Desktop\PROJETOS C#\LIG-DJÁ SITE\LIGDJA-WEB\Ligdja-web\obj\Debug\netcoreapp2.2\Razor\Views\Servico\gasE.cshtml.g.cs

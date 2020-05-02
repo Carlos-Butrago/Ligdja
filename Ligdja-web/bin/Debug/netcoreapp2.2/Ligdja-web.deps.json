@@ -26,7 +26,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "jQuery": "3.5.0"
         },
         "runtime": {
           "Ligdja-web.dll": {}
@@ -35,6 +36,7 @@
           "Ligdja-web.dll": {}
         }
       },
+      "jQuery/3.5.0": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3236,6 +3238,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/3.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BDZEKd+PT3Zpsg44Lxq/iGpYThtb6dEQe4YKSKFCkKIgHwDs4AlKRPv8VsvDjYAn15qw16fiyk0+XEy41UOqig==",
+      "path": "jquery/3.5.0",
+      "hashPath": "jquery.3.5.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
